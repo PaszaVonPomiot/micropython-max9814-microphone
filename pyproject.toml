@@ -1,0 +1,19 @@
+[project]
+name = "micropython-max9814-microphone"
+version = "0.1.0"
+description = "MicroPython wrapper for MAX9814 microphone"
+readme = "README.md"
+requires-python = ">=3.13"                                 # for type annotations only
+dependencies = []
+
+[tool.ruff]
+lint.ignore = ["F401"] # Ignore unused imports
+builtins = ["const"]
+
+[tool.mypy]
+mypy_path = ".venv/Lib/site-packages"
+custom_typeshed_dir = ".venv/Lib/site-packages"
+
+
+[dependency-groups]
+dev = ["micropython-rp2-pico-stubs"]

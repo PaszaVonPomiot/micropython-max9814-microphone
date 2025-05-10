@@ -1,0 +1,13 @@
+{
+    "folders": [
+        {
+            "name": "micropython-max9814-microphone",
+            "path": "."
+        },
+        {
+            "name": "Pico",
+            "uri": "pico:/"
+        }
+    ],
+    "settings": {}
+}
